@@ -12,14 +12,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-    /* Beige background for the banner */
-    #banner.style2 {background-color: #B8A58A; } #banner.style2::after {background: none; }
-
-    /* Matching Beige background for the top header */
-    #header.alt.style2,
-    #header.style2 {background-color: #B8A58A; }
-</style>
-
+            /* Consistent Beige banner and navigation header */
+            #banner.style2 { background: #B8A58A !important; }
+            #banner.style2::before, #banner.style2::after { background: none !important; }
+            #banner.style2 .image { display: none !important; }
+            #header.style2, #header.alt.style2 { background: #B8A58A !important; }
+            #header.style2::before, #header.style2::after { background: none !important; }
+        </style>
 	</head>
 	<body class="is-preload">
 
